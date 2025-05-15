@@ -32,6 +32,23 @@
                 <picUrl>https://i.pinimg.com/736x/e9/b6/57/e9b6576147b2ebbb340b5ed469be7ee0.jpg</picUrl>
             </properties>
         </developer>
+        <developer>
+            <id>sample-developer</id>
+            <name>TestUser</name>
+            <email>TestUser@example.com</email>
+            <url>http://example.com/TestUser</url>
+            <organization>Testing</organization>
+            <organizationUrl>http://rugid.com</organizationUrl>
+            <roles>
+                <role>developer</role>
+                <role>tester</role>
+                <role>team-lead</role>
+            </roles>
+            <timezone>Russia/Moscow</timezone>
+            <properties>
+                <picUrl>https://i.pinimg.com/736x/e9/b6/57/e9b6576147b2ebbb340b5ed469be7ee0.jpg</picUrl>
+            </properties>
+        </developer>
     </developers>
 
     <build>
