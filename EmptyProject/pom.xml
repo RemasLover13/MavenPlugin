@@ -14,4 +14,73 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <developers>
+        <developer>
+            <id>test-developer</id>
+            <name>Remas Lover</name>
+            <email>remaslover13@example.com</email>
+            <url>http://example.com/remaslover13</url>
+            <organization>Rugid</organization>
+            <organizationUrl>http://rugid.com</organizationUrl>
+            <roles>
+                <role>developer</role>
+                <role>tester</role>
+                <role>team-lead</role>
+            </roles>
+            <timezone>Russia/Moscow</timezone>
+            <properties>
+                <picUrl>https://i.pinimg.com/736x/e9/b6/57/e9b6576147b2ebbb340b5ed469be7ee0.jpg</picUrl>
+            </properties>
+        </developer>
+        <developer>
+            <id>sample-developer</id>
+            <name>TestUser</name>
+            <email>TestUser@example.com</email>
+            <url>http://example.com/TestUser</url>
+            <organization>Testing</organization>
+            <organizationUrl>http://rugid.com</organizationUrl>
+            <roles>
+                <role>developer</role>
+                <role>tester</role>
+                <role>team-lead</role>
+            </roles>
+            <timezone>Russia/Moscow</timezone>
+            <properties>
+                <picUrl>https://i.pinimg.com/736x/e9/b6/57/e9b6576147b2ebbb340b5ed469be7ee0.jpg</picUrl>
+            </properties>
+        </developer>
+    </developers>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.plugin</groupId>
+                <artifactId>MavenPlugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <id>cleanId</id>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>developer-info</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>compileId</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>developer-info</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>packageId</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>developer-info</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
